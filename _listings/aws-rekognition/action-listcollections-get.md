@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListCollections&k=1:
+  /?Action=ListCollections:
     get:
       summary: ' List Collections '
       description: Returns list of collection IDs in your account
