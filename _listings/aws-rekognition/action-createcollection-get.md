@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateCollection&k=1:
+  /?Action=CreateCollection:
     get:
       summary: ' Create Collection '
       description: Creates a collection in an AWS Region
