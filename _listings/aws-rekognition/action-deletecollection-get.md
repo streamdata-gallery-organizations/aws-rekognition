@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteCollection&k=1:
+  /?Action=DeleteCollection:
     get:
       summary: ' Delete Collection '
       description: Deletes the specified collection
