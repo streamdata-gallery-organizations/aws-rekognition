@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: aws-rekognition.api.streamdata.gallery
+title: Streamdata Gallery AWS Rekognition
+url: aws-rekognition.streamdata.gallery
 tag: AWS Rekognition
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: aws-rekognition
 github_branch: master
 collections:
