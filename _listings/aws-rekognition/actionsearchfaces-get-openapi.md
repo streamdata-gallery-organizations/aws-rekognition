@@ -40,6 +40,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=CreateCollection:
     get:
@@ -56,6 +57,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Collections
   /?Action=DeleteCollection:
     get:
@@ -72,6 +74,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Collections
   /?Action=DeleteFaces:
     get:
@@ -92,6 +95,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=DetectFaces:
     get:
@@ -113,6 +117,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=DetectLabels:
     get:
@@ -140,6 +145,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Labels
   /?Action=IndexFaces:
     get:
@@ -170,6 +176,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=ListCollections:
     get:
@@ -190,6 +197,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Collections
   /?Action=ListFaces:
     get:
@@ -216,6 +224,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=SearchFaces:
     get:
@@ -246,6 +255,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
 x-streamrank:
   polling_total_time_average: 0

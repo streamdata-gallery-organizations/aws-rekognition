@@ -41,6 +41,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=CreateCollection:
     get:
@@ -57,6 +58,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Collections
   /?Action=DeleteCollection:
     get:
@@ -73,6 +75,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Collections
   /?Action=DeleteFaces:
     get:
@@ -93,6 +96,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=DetectFaces:
     get:
@@ -114,6 +118,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Faces
   /?Action=DetectLabels:
     get:
@@ -141,6 +146,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Labels
 x-streamrank:
   polling_total_time_average: 0
